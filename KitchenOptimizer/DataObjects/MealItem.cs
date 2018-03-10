@@ -14,18 +14,18 @@ namespace KitchenOptimizer.DataObjects
         public int Id { get; set; }
         [MaxLength(150)]
         public string MealItemName { get; set; }
-        public int Ingredient1 { get; set; }
-        public int Ingredient2 { get; set; }
-        public int Ingredient3 { get; set; }
-        public int Ingredient4 { get; set; }
-        public int Ingredient5 { get; set; }
-        public int Ingredient6 { get; set; }
-        public int Ingredient7 { get; set; }
-        public int Ingredient8 { get; set; }
-        public int Ingredient9 { get; set; }
-        public int Ingredient10 { get; set; }
-        public int Ingredient11 { get; set; }
-        public int Ingredient12 { get; set; }
-        public int Ingredient13 { get; set; }
+        public string Ingredient1 { get; set; }
+        public string Ingredient2 { get; set; }
+        public string Ingredient3 { get; set; }
+        public string Ingredient4 { get; set; }
+        public string Ingredient5 { get; set; }
+        public string Ingredient6 { get; set; }
+        public string Ingredient7 { get; set; }
+        public string Ingredient8 { get; set; }
+        public string Ingredient9 { get; set; }
+        public string Ingredient10 { get; set; }
+        public string Ingredient11 { get; set; }
+        public string Ingredient12 { get; set; }
+        public string Ingredient13 { get; set; }
     }
 }

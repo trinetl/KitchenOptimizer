@@ -15,6 +15,6 @@ namespace KitchenOptimizer.DataObjects
         [MaxLength(150)]
         public string IngredientName { get; set; }
         public decimal IngredientCost { get; set; }
-        public int IngredientCategory { get; set; }
+        public string IngredientCategory { get; set; }
     }
 }
